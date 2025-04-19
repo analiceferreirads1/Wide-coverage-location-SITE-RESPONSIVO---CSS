@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family:"Poppins", sans-serif ;
+}
+
+img{
+    Width: 596px;
+    Height:500px;
+    margin-left:20px;
+    margin: top 342px;
+    display: inline-block;    
+}
+
+header{
+   margin:47px 0 144px 42px;
+}
+
+section{
+    display:inline-block;
+}
+
+h1{
+    font-weight:700px;
+    font-size:90px;    
+    line-height:82px ;
+    color: #161A49;
+    letter-spacing: 0.6px;
+    margin-top: 30px; 
+    margin-left: 200px;
+    Width:682px;
+}
+
+P{
+    font-weight:400px ;
+    font-size:25px ;    
+    line-height:33px ;
+    color: #4B505A;
+    letter-spacing: 0.8px;
+    margin-top: 100px; 
+    margin-left: 200px; 
+    width: 493px;   
+
+}
+.link-menu{
+    font-weight:400px;
+    font-size: 25px;
+    line-height: 25px;
+    text-align:center; 
+    letter-spacing: 1px;
+    color: #17233D;
+    cursor:pointer;
+    margin-right: 23px; 
+      
+}
+
+a:hover{
+    color:chartreuse;
+}
+a:active{
+border: 3px solid deeppink;
+}
+
+.button-sign-up{
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    Width:124px;
+    Height:51px;
+    border-radius:6px;
+    cursor: pointer;
+    font-weight: 500px;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF; 
+}
+.button-learn-more{
+    Width:200px;
+    Height:27px;
+    Top:707px;
+    margin-left: 162px;
+    color: #6FBF44;
+    border: none;
+    background:none;
+    font-weight:600px;
+    font-size:25px;
+    line-height:100px;
+    Letter-spacing:1px;
+    cursor:pointer;
+}
+button:hover{
+color: deeppink;
+}
+
+@media screen and (max-width: 1000px){       
+    
+header{
+    display: none;  
+}
+
+h1{
+    font-weight:700px;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    width:auto;
+    margin:100px 50px 0 54px;
+    text-align: center;
+}
+
+p{
+    font-weight:400px;
+    font-size: 15px;
+    line-height: 24px;
+    width:auto;
+    margin:30px 40px;
+    text-align: center; 
+}
+.button-learn-more{
+    Width:112px;
+    Height:27px;
+    Top:800px;
+    margin-left: 150px;
+    color: #6FBF44;
+    border:none;
+    background:none;
+    font-weight:500px;
+    font-size:18px;
+    line-height:100%;
+    Letter-spacing:1px;
+    cursor:pointer;
+}
+
+.button-learn-more:hover{
+    color: deeppink;
+
+ }
+
+ img{
+    Width: 312px;
+    Height:290px;
+    margin-bottom: 0%;
+    margin-left: 50px;
+    position: fixed;
+    margin-top:400px; 
+    padding: 5%;  
+}
+
+}
